@@ -1,0 +1,100 @@
+* {
+    margin: 0;
+    padding: 0;
+    outline: none;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+b,
+strong {
+    font-family: 'HuaweiSans-Bold', Helvetica, Arial, sans-serif;
+}
+
+html,
+body {
+    font-family: 'huaweifont';
+}
+
+a {
+    text-decoration: none;
+    color: #333333;
+}
+
+a:hover,
+a:focus {
+    text-decoration: none;
+    color: #333333;
+    -webkit-tap-highlight-color: transparent;
+}
+
+ul,
+li {
+    list-style-type: none;
+}
+
+p {
+    margin: 0;
+    color: #666;
+    font-size: 1em;
+    line-height: 1.95em;
+}
+
+h1 {
+    font-size: 2.5em;
+    line-height: 1.5em;
+    color: #333;
+}
+
+@media (min-width: 768px) {
+    h1 {
+        font-size: 2.5em;
+    }
+}
+
+h2 {
+    font-size: 1.9em;
+    line-height: 1.5em;
+    color: #333;
+}
+
+@media (min-width: 768px) {
+    h2 {
+        font-size: 1.9em;
+        padding: 0 10%;
+    }
+}
+
+h3 {
+    font-size: 1.5em;
+    color: #333;
+    line-height: 1.5em;
+}
+
+h4 {
+    font-size: 1em;
+    color: #333;
+    line-height: 1.95em;
+    margin: 0;
+}
+
+h4.big-size {
+    font-size: 2em;
+    text-align: center;
+    font-weight: 500;
+}
+
+@media (min-width: 992px) {
+    h4.big-size {
+        font-size: 3em;
+    }
+}
+
+@media (max-width: 767px) {
+    h4 {
+        font-size: 1.1em;
+    }
+}
